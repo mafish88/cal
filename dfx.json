@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "cal_backend": {
+      "main": "src/cal_backend/main.mo",
+      "type": "motoko"
+    },
+    "cal_frontend": {
+      "dependencies": [
+        "cal_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/cal_frontend/src/index.html"
+      },
+      "source": [
+        "src/cal_frontend/assets",
+        "dist/cal_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
