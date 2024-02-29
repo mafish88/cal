@@ -13,13 +13,25 @@
       <img src="logo2.svg" alt="DFINITY logo" />
       <br />
       <br />
-      <form action="#">
-        <label for="name">Enter your first name: &nbsp;</label>
-        <input id="name" alt="Name" type="text" />
-        <br/>
-        <label for="lastname">Enter your last name: &nbsp;</label>
-        <input id="lastname" alt="Last Name" type="text" />
-        <button type="submit" style="background-color: chartreuse; color: black;">Lets Go!</button>
+      <style>
+        form div {
+            margin: auto; /* Adjust as needed */
+            flex: auto;
+          }   
+    </style>
+    
+    <form action="#">
+        <div>
+            <label for="name">Enter your first name: &nbsp;</label>
+            <input id="name" alt="Name" type="text" />
+        </div>
+        <div>
+            <label for="lastname">Enter your last name: &nbsp;</label>
+            <input id="lastname" alt="Last Name" type="text" />
+        </div>
+        <div>
+            <button type="submit" style="background-color: chartreuse; color: black;">Lets Go!</button>
+        </div>
     </form>
       <section id="greeting"></section>
     </main>
