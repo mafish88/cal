@@ -7,4 +7,3 @@ actor {
     return name.size();
   };
 };
-
