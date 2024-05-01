@@ -1,4 +1,4 @@
-http://localhost:8000/?canisterId=bd3sg-teaaa-aaaaa-qaaba-cai
+{
   "canisters": {
     "cal_backend": {
       "main": "src/cal_backend/main.mo",
@@ -26,3 +26,4 @@ http://localhost:8000/?canisterId=bd3sg-teaaa-aaaaa-qaaba-cai
   },
   "output_env_file": ".env",
   "version": 1
+}
