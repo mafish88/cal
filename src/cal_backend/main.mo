@@ -1,6 +1,6 @@
 actor {
   public query func greet(name : Text) : async Text {
-    return "Hey, " # name # "!!";
+    return "Hello, " # name # "!!";
   };
 
   public query func countCharacters(name : Text) : async Nat {
